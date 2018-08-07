@@ -1,11 +1,10 @@
-html {
-  font: Arial, Helvetica, sans-serif;
-  color: #777777;
-}
-
 body {
+  width: 960px;
   background-image: url("../images/full-bloom/full-bloom.png");
   background-color: #ffffff;
+  margin: 0px;
+  font: Arial, Helvetica, sans-serif;
+  color: #777777;
 }
 
 header {
@@ -13,15 +12,17 @@ header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #ffffff;
   font-size: 16pt;
-  margin: 0px 200px 20px 200px;
+  padding: 0px 200px 0px 200px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
 }
 
 nav {
-  width: 100%;
+  width: 960px;
   height: auto;
-  border: 1px solid #cccccc;
   position: relative;
 }
+
 .label {
   display: inline-block;
   width: auto;
@@ -54,6 +55,8 @@ nav li {
 }
 
 nav li a {display: block;
+  color: #777777;
+  text-decoration: none;
   margin-right: 0;   /* space between links */
   width: auto;   /* adjust width as needed or use auto */
   padding-left: 6px;
@@ -68,7 +71,7 @@ nav li:last-child a {
 }
 
 .maincontent {
-  width: 920px;
+  width: 918px;
   clear: both;
   background-color: #ffffff;
   padding: 20px;
@@ -83,6 +86,24 @@ h2 {
 .maincontent img {
   float: left;
   margin: 10px 10px 10px 0px;
+}
+
+footer {
+  position: relative;
+  width: 960px;
+  height: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #666666;
+  padding: 0px 200px 0px 200px;
+  margin-top: 100%;
+  border-top: 5px solid #4aaaa5;
+}
+
+.copyright {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 8pt;
 }
 
 .portfoliorow {
@@ -120,6 +141,7 @@ input {
   border: none;
   padding: 8px 16px;
   background-color: #4aaaa5;
+  color: #777777;
 }
 
 textarea {
