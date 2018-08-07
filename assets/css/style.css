@@ -1,0 +1,128 @@
+html {
+  font: Arial, Helvetica, sans-serif;
+  color: #777777;
+}
+
+body {
+  background-image: url("../images/full-bloom/full-bloom.png");
+  background-color: #ffffff;
+}
+
+header {
+  width: 960px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  font-size: 16pt;
+  margin: 0px 200px 20px 200px;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  border: 1px solid #cccccc;
+  position: relative;
+}
+.label {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16pt;
+  font-weight: bold;
+  left: 0px;
+}
+
+.linksbar {
+  vertical-align: bottom;
+  float: right;
+  margin-top: 3px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-top: 15px;
+}
+nav li {
+  list-style: none;
+  font-size: 12px;
+  float: left;
+  text-align: center;
+}
+
+nav li a {display: block;
+  margin-right: 0;   /* space between links */
+  width: auto;   /* adjust width as needed or use auto */
+  padding-left: 6px;
+  padding-right: 6px;
+  font-weight: bold;
+  line-height: auto;
+  border-right: 1px solid #cccccc;
+}
+
+nav li:last-child a {
+  border: none;
+}
+
+.maincontent {
+  width: 920px;
+  clear: both;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 0px 200px 0px 200px;
+  border: 1px solid #dddddd;
+}
+
+h2 {
+  color: #4aaaa5;
+}
+
+.maincontent img {
+  float: left;
+  margin: 10px 10px 10px 0px;
+}
+
+.portfoliorow {
+  width: 920px;
+  position: relative;
+}
+
+.portfoliorow img {
+  margin: 20px 20px 20px 0px;
+}
+
+.portfoliorow p {
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.container .label {
+  position: absolute;
+  top: 60%;
+  margin: auto;
+  width: 170px;
+  font-size: 12pt;
+}
+
+input {
+  width: 100%;
+}
+
+.submitbttn input {
+  width: auto;
+  border: none;
+  padding: 8px 16px;
+  background-color: #4aaaa5;
+}
+
+textarea {
+  height: 200px;
+  width: 100%
+}

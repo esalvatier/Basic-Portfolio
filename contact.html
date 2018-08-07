@@ -2,26 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-	<title>Mark Erik Salvatier's Portfolio</title>
+  <title>Mark Erik Salvatier's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-	<header>
-		<h1>Mark Erik Salvatier</h1>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
-	</header>
-	<h2>Contact</h2>
-  <hr>
-  <form>
-    <label for="contactname">Name</label><br>
-    <input type="text" name="fullname" id="contactname"><br>
-    <label for="contactemail">email</label><br>
-    <input type="text" name="email" id="contactemail"><br>
-    <label for="contactname">Message</label><br>
-    <textarea name="message" id="contactmessage"></textarea><br>
-    <input type="submit">
-  </form>
+  <header>
+    <nav>
+      <div class="label">
+        <b>Mark Erik Salvatier</b>
+      </div>
+      <div class="linksbar">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="maincontent">
+    <h2>Contact</h2>
+    <hr>
+    <form>
+      <label for="contactname">Name</label><br>
+      <input type="text" name="fullname" id="contactname"><br>
+      <label for="contactemail">Email</label><br>
+      <input type="text" name="email" id="contactemail"><br>
+      <label for="contactname">Message</label><br>
+      <textarea name="message" id="contactmessage"></textarea><br>
+      <div class="submitbttn">
+        <input type="submit">
+      </div>
+    </form>
+  </div>
 
 </body>
 </html>
